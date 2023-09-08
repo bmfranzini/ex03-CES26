@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Árvore DOM</title>
+    <style>
+        .selected {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Editor de Árvore DOM</h1>
+    <div id="tree">
+        <div class="node">Nó 1</div>
+        <div class="node">Nó 2</div>
+        <div class="node">Nó 3</div>
+    </div>
+    <button id="remove">Remover Elemento</button>
+    <button id="change">Mudar Propriedades</button>
+    <button id="addChild">Inserir Filho</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="editor.js"></script>
+</body>
+</html>
